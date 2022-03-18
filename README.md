@@ -1,2 +1,2 @@
-# Portable-PCB-Reflow-Plate
-A portable PCB Reflow Plate that values compactness.  Design details available at https://rgulland.com/blog
+# Portable PCB Reflow Plate
+ A PCB reflow plate optimized for medium size boards.
