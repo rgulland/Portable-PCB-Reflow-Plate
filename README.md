@@ -10,15 +10,18 @@ On initial power on, make sure to set a default power limit of 125-150W & 30.1V 
 This project is under the GPL v3 license. There's little to no IP here, as most components are COTS, so this is more an endorsement of keeping more things open source. Open source hardware projects are rare, so if yours is, thanks :)  
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
+# Changes Since Blog
+- Adjusted microcontroller port cutout
+- Added draft to bottom cap to better tolerate 3D printed parts' first layer flange / 'elephant's foot'
+- Separated code into multiple files & commented for readability
+
 # Todo
-- Adjust microcontroller port cutout
-- Add draft to bottom cap to better tolerate 3D printed first layer flange / 'elephant's foot'
 - Improve code
   - Generally remove jank / simplify screen update system
-  - Separate into multiple files & comment for readability
   - Re-implement PID control
   - Add thermal runaway detection / better AC lockout
   - PID settings / tuning menu
+  - Add curve edit mode
 - Design / Build / Test v2 
   - SD card / spi flash / other permanent storage for reflow curves
   - Cheaper thermal insulation solution
